@@ -87,7 +87,7 @@ public class Weather {
     }
 
     public static void main(String[] args) {
-        var weather = new Weather("b24362663f40770d8d3cab03ddf23226");
+        var weather = new Weather("insertApiKeyHere");
         try {
             var check = weather.doRequest("Livorno", "ciao.xml", "ciao.txt");
         } catch (IOException | ParserConfigurationException | SAXException e) {
