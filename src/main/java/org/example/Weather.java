@@ -26,7 +26,7 @@ public class Weather {
     private double latitude, longitude;
     private LocalDateTime sunrise, sunset;
 
-    public static DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd:MM:yy HH:mm:ss");
+    public static DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd/MM/yy HH:mm:ss");
 
     public Weather(String apiKey) {
         this.apiKey = URLEncoder.encode(apiKey, StandardCharsets.UTF_8);
@@ -87,7 +87,7 @@ public class Weather {
     }
 
     public static void main(String[] args) {
-        var weather = new Weather("insertApiKeyHere");
+        var weather = new Weather("yourKeyHere");
         try {
             var check = weather.doRequest("Livorno", "ciao.xml", "ciao.txt");
         } catch (IOException | ParserConfigurationException | SAXException e) {

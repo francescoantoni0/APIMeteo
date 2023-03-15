@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <current>
     <city id="3174658" name="Provincia di Livorno">
-        <coord lon="10.5833" lat="43.2333"></coord>
+        <coord lon="10.5833" lat="43.2333"/>
         <country>IT</country>
         <timezone>3600</timezone>
-        <sun rise="2023-03-15T05:30:45" set="2023-03-15T17:22:48"></sun>
+        <sun rise="2023-03-15T05:30:45" set="2023-03-15T17:22:48"/>
     </city>
-    <temperature value="289.21" min="288.84" max="289.71" unit="kelvin"></temperature>
-    <feels_like value="288.62" unit="kelvin"></feels_like>
-    <humidity value="67" unit="%"></humidity>
-    <pressure value="1009" unit="hPa"></pressure>
+    <temperature value="290.33" min="286.86" max="290.59" unit="kelvin"/>
+    <feels_like value="289.88" unit="kelvin"/>
+    <humidity value="68" unit="%"/>
+    <pressure value="1010" unit="hPa"/>
     <wind>
-        <speed value="2.81" unit="m/s" name="Light breeze"></speed>
-        <gusts value="4.05"></gusts>
-        <direction value="60" code="ENE" name="East-northeast"></direction>
+        <speed value="2.85" unit="m/s" name="Light breeze"/>
+        <gusts value="3.76"/>
+        <direction value="68" code="ENE" name="East-northeast"/>
     </wind>
-    <clouds value="0" name="clear sky"></clouds>
-    <visibility value="10000"></visibility>
-    <precipitation mode="no"></precipitation>
-    <weather number="800" value="clear sky" icon="01d"></weather>
-    <lastupdate value="2023-03-15T09:36:32"></lastupdate>
+    <clouds value="3" name="clear sky"/>
+    <visibility value="10000"/>
+    <precipitation mode="no"/>
+    <weather number="800" value="clear sky" icon="01d"/>
+    <lastupdate value="2023-03-15T10:58:30"/>
 </current>
